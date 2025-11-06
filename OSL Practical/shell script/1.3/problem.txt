@@ -1,0 +1,11 @@
+Create an address book program using the bourne-again shell.
+ It should use functions to perform the
+required tasks. It should be menu-based, allowing you the options of:
+1. Search address book
+2. Add entries
+3. Remove / edit entries.
+You will also need a "display" function to display a record or records when selected.
+Suggested record format: Use colons to separate fields.
+
+empid;name;address
+23;XYZ;hdjsn hk

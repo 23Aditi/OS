@@ -1,0 +1,13 @@
+1.2 Write a script program to create a phonebook. Using the phonebook, 
+perform the following tasks:
+1. Add a new name to a phone book file
+2. Display all matches to a name or phone number
+3. Sort the phone book by the last name
+4. Delete an entry
+Suggested record format: Use tabs to separate fields
+
+
+Name	PhoneNumber
+asdf asdfg	456789
+tyu ghjk	34567890
+XYZ JYF	56789045
