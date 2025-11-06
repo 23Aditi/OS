@@ -1,0 +1,9 @@
+4.1 The problem below describes two processes, the producer and the consumer, who share a common,
+fixed-size buffer used as a queue.
+The producer is Mr. Simpson whose job is to bake Pizza and consumer is Joey Tribbiani who consumes Pizza
+at the same time. Both of them share common Pizza counter to interact with each other. The problem is to
+make sure that the Simpson won't try to add more pizza on Pizza-counter if it's full. He needs to wait until
+Joey consumes Pizza. Similarly, Joey can't consume pizza from an empty counter. He needs to wait until Mr.
+Simpson adds Pizza on counter.
+Implement a solution in C using POSIX threads that coordinates the activities of the producer Simpson and
+the consumer Joey with counting semaphores and mutex.
