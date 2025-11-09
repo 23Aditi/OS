@@ -1,0 +1,7 @@
+3.1 Write a menu-driven C program to simulate the following 
+CPU scheduling algorithms to find average turnaround time 
+and average waiting time. a) FCFS b) SJF (non-preemptive) 
+Expected Output (e.g): Enter the number of processes:3 Process 
+Arrival time Burst time p1 0 7 p2 2 4 p3 4 1 p4 5 4 Enter the 
+choice: 1. FCFS 2. SJF (non-preemptive) 3. Exit 4.SJF 
+preemptive 5.Round Robin
