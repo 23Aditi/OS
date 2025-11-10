@@ -103,11 +103,13 @@ void bankers(int pid){
     for(int i = 0 ; i < m ; i++){
         alloc[pid][i]+=req[i];
         need[pid][i]-=req[i];
+        avail[i]-=req[i];
     }
     if(!isSafe()){
         for(int i = 0 ; i < m ; i++){
             alloc[pid][i]-=req[i];
             need[pid][i]+=req[i];
+            avail[i]+=req[i];
         }
         printf("Restoring safe state !! Request rejected ! Changing allocation and need to previous values......\n");
         return;
