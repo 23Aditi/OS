@@ -1,0 +1,8 @@
+5.2 Develop a C program to simulate Banker's Algorithm for Deadlock Avoidance with following
+requirements:
+1. Demonstrate safe and unsafe state of the system?
+2. Demonstrate Grant and non-grant of new resource request.
+Note: Your program may read the current state of the system from a file called "state.txt". In this file,
+number of processes, number of resources, Allocation Matrix, Max and Available Resources Matrix may
+be presented in the order below:
+State.txt contents:-->
