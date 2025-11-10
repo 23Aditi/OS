@@ -1,0 +1,12 @@
+Question:
+
+Develop a C program to simulate and compare the total head movement and average seek distance for a given 
+sequence of disk requests using the following disk scheduling algorithms:
+
+SCAN (Elevator Algorithm)
+
+C-SCAN (Circular SCAN)
+
+LOOK (Enhanced SCAN)
+
+C-LOOK (Circular LOOK)
