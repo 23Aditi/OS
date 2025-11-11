@@ -1,0 +1,4 @@
+7.2 Develop Client and Server processes using Shared Memory.
+The Server creates a shared memory segment and writes a message to it. The Client reads the message from
+the shared memory segment and displays it on the screen. Include appropriate synchronization (using
+semaphores or sleep/wait) to avoid data inconsistency.
