@@ -1,0 +1,9 @@
+4.3 The Producer generates an integer between 0 and 9 (inclusive), stores it in a file. To make the
+synchronization problem more interesting, the Producer sleeps for a random amount of time between 0 and
+100 milliseconds before repeating the number-generating cycle. The Consumer consumes all integers from
+the same file (the exact same file into which the Producer put the integers in the first place) as quickly as they
+become available. The activities of the Producer and the Consumer must be synchronized in a following way:
+The two threads must do some simple coordination. That is, the Producer must have a way to indicate to the
+Consumer that the value is ready, and the Consumer must have a way to indicate that the value has been
+retrieved. Implement the solution using mutex, and binary semaphore — to help threads wait for a condition
+and notify other threads when that condition changes.

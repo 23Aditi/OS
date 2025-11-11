@@ -1,0 +1,7 @@
+4.4 A real-world example of the readers-writers problem is an airline reservation system:
+• Readers: want to read flight information
+• Writers: want to make flight reservations
+• Potential problem: if readers and writers can access the shared data simultaneously then
+readers/writers may view flights as being available when they’ve actually just been booked.
+Implement the solution using mutex and semaphore that controls access to the reader count and
+database given the priority to readers over writers.
