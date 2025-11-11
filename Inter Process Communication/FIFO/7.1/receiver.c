@@ -23,6 +23,7 @@ int main(){
         }
         printf("Received : %s",msg);
     }
+    unlink(FIFO);
     return 0;
 }
 

@@ -25,7 +25,7 @@ int main(){
             break;
         }
     }
-
+    unlink(FIFO);
     return 0;
 }
 
