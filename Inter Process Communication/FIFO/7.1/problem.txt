@@ -1,0 +1,4 @@
+7.1 Implement two independent processes, Sender and Receiver, using Message Queues (FIFO). The Sender
+accepts messages from the user and sends them to the queue with different message types. The Receiver
+reads each message, converts it to uppercase, and displays it on the screen.
+Ensure proper cleanup of message queues after execution.
